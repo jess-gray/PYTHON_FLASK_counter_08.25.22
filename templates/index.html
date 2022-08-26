@@ -8,10 +8,11 @@
 </head>
 <body>
     <h1>Counter</h1>
-    <h2>{{session['count']}}</h2>
+    <h2>{{session['count']}}</h2>  
+<!-- the input name count is what key session is using -->
     <form action="/">
         <label for="count"></label>
-        <input name="count">
+        <input name="count">  
     </form>
 
     <form action="/destroy_session">
